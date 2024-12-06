@@ -1,26 +1,21 @@
-# Read This Before Starting
+I Read This Before Starting
 
-This project involves running a TODO server. Follow the steps below to get started.
+This project not involved running a TODO server. This is just an illustration of when a Todos application works by consuming the Restful API.
 
-## Getting Started
+II Getting Started
+- download this project as zip
+- extract to a folder
+- open CMD Terminal in your PC/Laptop
+- navigate to the extracted project folder
+- type npm install in cmd then enter
+- await until the installation process is complete
+- then type npm run dev to run the program as developer
+- open your browser then see http://localhost:8080
 
-### Cloning the Repository
-
-Clone the repository by visiting the following link:
-
-[https://github.com/webprogramminghack/todos-server](https://github.com/webprogramminghack/todos-server)
-
-### Watch Before Starting
-
-Watch this video before starting:  
-[https://youtu.be/Zdc1fR0C3xg](https://youtu.be/Zdc1fR0C3xg)
-
-### Optimistic UI Update
-
-Make sure you implement **optimistic updates** to provide a smooth user experience. With optimistic UI, the interface updates instantly, providing quick feedback to the user, even before the server confirms the changes.
+III Disclaimer
+in this project repository does not provide a server, this is just an illustration, if you have a server that is ready to serve the front-end of this web app you can configure it yourself by changing and adjusting the api baseurl that you have, so that when fetching data it can connect
 
 ### Technology Requirements
 
 - **Use TypeScript**: Ensure all code is written in TypeScript to catch errors early and provide better type safety.
-- **Use React Query**: Implement data fetching and synchronization using [React Query from TanStack](https://tanstack.com/query/latest).
 - **Use Optimistic Update**: Apply optimistic updates to provide immediate UI feedback while data operations are pending.
