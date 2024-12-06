@@ -13,6 +13,7 @@ II Getting Started
 - open your browser then see http://localhost:8080
 
 III Disclaimer
+
 in this project repository does not provide a server, this is just an illustration, if you have a server that is ready to serve the front-end of this web app you can configure it yourself by changing and adjusting the api baseurl that you have, so that when fetching data it can connect
 
 ### Technology Requirements
